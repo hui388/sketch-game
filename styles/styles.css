@@ -1,0 +1,45 @@
+#board {
+  background-color: blue;
+  height: 600px;
+  width: 600px;
+  margin: 80px auto;
+
+}
+
+.square {
+  display: inline-block;
+  height: 6.25%;
+  width: 6.25%;
+  background-color: turquoise;
+  margin: 0;
+  margin-top: -4px;
+  clear: right;
+}
+
+.buttons {
+  float: right;
+  margin-right: 325px;
+  margin-top: 180px;
+}
+
+.buttons button {
+  background-color: pink;
+  color: white;
+  font-family: 'Fresca', sans-serif;
+  font-size: 24px;
+
+}
+
+#clear {
+  height: 50px;
+  width: 250px;
+  margin-top: 100px;
+  position: absolute;
+
+}
+
+#new {
+  height: 50px;
+  width: 250px;
+  position: absolute;
+}
