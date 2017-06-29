@@ -1,8 +1,8 @@
 #board {
-  background-color: blue;
+  background-color: turquoise;
   height: 600px;
   width: 600px;
-  margin: 80px auto;
+  margin: 70px auto;
 
 }
 
@@ -27,6 +27,7 @@
   color: white;
   font-family: 'Fresca', sans-serif;
   font-size: 24px;
+
 
 }
 

@@ -5,13 +5,15 @@ $(document).ready(function(){
     $('#board').append($('<div class="square"></div>'));}
 
   //Click to stop/start drawing
-  $('#board').click(function() {
+  $('#board').dblclick(function() {
     if ($(this).hasClass('flag'))
       $(this).removeClass('flag');
     else {
       $(this).addClass('flag');
     }
   });
+
+
 
 
   //hover draw
